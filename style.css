@@ -1,0 +1,195 @@
+/* Body styles */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    padding-top: px;
+}
+
+.navbar-brand {
+    
+    font-style: inherit;
+    font-weight: bold;
+   
+}
+
+
+.hp-tittle {
+   font-size: 2.5rem;
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+};
+
+.home-page {
+    margin-top: -0px;
+    padding-top: 10px;   
+}
+
+.social-links .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: px;
+    display: inline-flex;
+    margin: 5px;
+
+}
+.sn-btn {
+    width: 10px;
+    height: 20px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border: 4px solid white;
+}
+
+.about-name {
+    padding-top: 0px;
+    padding-left: 0px;
+    
+}
+
+.about-img{
+
+     width: 300px;
+    height: 300px;
+
+}
+
+.section-tittle {
+    font-size: 2.5rem;
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-right: 1rem;
+    color: #333;
+}
+
+
+.section-tittle::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 40%;
+    transform: translateY(-70%);
+    width: 80px;
+    height: 2.7px;
+    background: #007bff; 
+}
+
+
+
+
+.skills-item {
+    margin-bottom: 1.5rem;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+
+
+.tech-tags .badge {
+    margin-bottom: 40px;
+    margin-right: 15px;
+}
+
+
+.form-control {
+    border: 2px solid #34f944;
+    padding: 10px 15px ;
+}
+
+
+.form-control:focus {
+    border-color: #1cc16c;
+    box-shadow: 0 0 0 0.5rem rgba(229, 88, 17, 0.35);
+}
+
+
+.footer {
+
+    margin-top: auto;
+
+}
+
+
+@media (max-width:576px) {
+    body{
+        padding: 75px;
+    }
+    .home-page{
+        margin-top: -25;
+        padding-top: 80px;
+    }
+    .profile-img{
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        font-size: .5rem;
+        padding: 1rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-tittle {
+        padding-top: 30px;
+        margin-top: 25px;
+    }
+    
+}
+
+@media (max-width:768px) {
+      body{
+        padding: 90rem;
+    }
+    
+
+    .home-page {
+        text-align: center;
+        padding: 70px 0 60px 0;
+    }
+
+    .profile-img {
+
+        background-color: #50EBE6;
+        width: 100px;
+        height: 100px;
+    }
+
+    .hp-tittle {
+        margin-top: 7rem;
+        padding-top: 8rem;
+    }
+       
+
+    .section-tittle {
+        font-size: 2rem;
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+
+    .about-img{
+
+    width: 200px;
+    height: 200px;
+}
+}
